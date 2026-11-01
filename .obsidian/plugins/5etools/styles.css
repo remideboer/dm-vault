@@ -36,6 +36,69 @@ body.fiveetools-token-dragging .modal-container {
 	background: transparent;
 }
 
+button.fiveetools-iconbtn,
+body.is-mobile button.fiveetools-iconbtn {
+	-webkit-appearance: none;
+	appearance: none;
+	box-sizing: border-box;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+	flex: 0 0 auto;
+	width: auto;
+	max-width: none;
+	min-width: 0;
+	height: auto;
+	min-height: 1.75em;
+	margin: 0;
+	padding: 2px 8px;
+	border-radius: 6px;
+	border: 1px solid transparent;
+	box-shadow: none;
+	font: inherit;
+	font-size: 12px;
+	line-height: 1.2;
+	white-space: nowrap;
+	cursor: pointer;
+	--icon-size: 14px;
+}
+
+button.fiveetools-iconbtn svg,
+body.is-mobile button.fiveetools-iconbtn svg {
+	width: 14px;
+	height: 14px;
+	flex: 0 0 auto;
+}
+
+button.fiveetools-iconbtn--collapse,
+body.is-mobile button.fiveetools-iconbtn--collapse {
+	background: var(--background-secondary);
+	border-color: var(--background-modifier-border);
+	color: var(--text-normal);
+}
+
+button.fiveetools-iconbtn--view,
+body.is-mobile button.fiveetools-iconbtn--view {
+	background: color-mix(in srgb, var(--interactive-accent) 18%, var(--background-primary));
+	border-color: var(--interactive-accent);
+	color: var(--text-normal);
+}
+
+button.fiveetools-iconbtn--roll,
+body.is-mobile button.fiveetools-iconbtn--roll {
+	background: color-mix(in srgb, #2f9e6b 22%, var(--background-primary));
+	border-color: #2f9e6b;
+	color: var(--text-normal);
+}
+
+button.fiveetools-iconbtn--delete,
+body.is-mobile button.fiveetools-iconbtn--delete {
+	background: color-mix(in srgb, var(--text-error) 16%, var(--background-primary));
+	border-color: var(--text-error);
+	color: var(--text-error);
+}
+
 .fiveetools-modal__results {
 	max-height: 50vh;
 	overflow: auto;
@@ -1124,7 +1187,9 @@ a.fiveetools-inline-link {
 }
 
 .fiveetools-character-card__header-text {
+	position: relative;
 	min-width: 0;
+	padding-right: 2.4em;
 }
 
 .fiveetools-character-card__name {
@@ -1139,20 +1204,32 @@ a.fiveetools-inline-link {
 	min-width: 0;
 }
 
-button.fiveetools-character-card__fold {
-	display: inline-flex;
+.fiveetools-character-card__name button.fiveetools-character-card__fold,
+body.is-mobile .fiveetools-character-card__name button.fiveetools-character-card__fold {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex: 0 0 auto;
-	width: 1.6em;
-	height: 1.6em;
+	box-sizing: border-box;
+	width: 2em;
+	height: 2em;
+	min-width: 2em;
+	min-height: 2em;
+	max-width: 2em;
 	margin: 0;
 	padding: 0;
-	border: 0;
-	border-radius: 0;
-	background: none;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+	background: var(--background-secondary);
 	box-shadow: none;
-	color: var(--text-muted);
+	-webkit-appearance: none;
+	appearance: none;
+	color: var(--text-normal);
+	font-size: 16px;
+	line-height: 1;
 	cursor: pointer;
 }
 
