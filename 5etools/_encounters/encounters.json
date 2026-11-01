@@ -1002,7 +1002,7 @@
 		"name": "Red Wizard + Bandits, Zentharim",
 		"savedId": "e7",
 		"pickedId": "e7",
-		"selectedId": "c15",
+		"selectedId": "c16",
 		"party": {
 			"count": 10,
 			"level": 4
@@ -1691,6 +1691,107 @@
 				"passive": 10,
 				"initScore": null,
 				"ent": null,
+				"scaleBase": null
+			},
+			{
+				"id": "c16",
+				"label": "Baloth 1",
+				"doc": {
+					"n": "Baloth",
+					"u": "baloth_psz",
+					"s": "PSZ",
+					"c": 1,
+					"cf": "Bestiary",
+					"sA": "PSZ"
+				},
+				"ent": {
+					"name": "Baloth",
+					"source": "PSZ",
+					"page": 33,
+					"hasToken": true,
+					"hasFluff": true,
+					"hasFluffImages": true,
+					"__prop": "monster",
+					"group": [
+						"Dinosaurs"
+					],
+					"size": [
+						"H"
+					],
+					"type": "beast",
+					"alignment": [
+						"U"
+					],
+					"ac": [
+						{
+							"ac": 13,
+							"from": [
+								"natural armor"
+							]
+						}
+					],
+					"hp": {
+						"average": 95,
+						"formula": "10d12 + 30"
+					},
+					"speed": {
+						"walk": 50
+					},
+					"str": 22,
+					"dex": 9,
+					"con": 17,
+					"int": 2,
+					"wis": 11,
+					"cha": 5,
+					"passive": 10,
+					"cr": "5",
+					"trait": [
+						{
+							"name": "Trampling Charge",
+							"entries": [
+								"If the baloth moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the baloth can make one stomp attack against it as a bonus action."
+							]
+						}
+					],
+					"action": [
+						{
+							"name": "Gore",
+							"entries": [
+								"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}24 ({@damage 4d8 + 6}) piercing damage."
+							]
+						},
+						{
+							"name": "Stomp",
+							"entries": [
+								"{@atk mw} {@hit 9} to hit, reach 5 ft., one {@condition prone} creature. {@h}22 ({@damage 3d10 + 6}) bludgeoning damage."
+							]
+						}
+					],
+					"damageTags": [
+						"B",
+						"P"
+					],
+					"miscTags": [
+						"MW"
+					],
+					"conditionInflict": [
+						"prone"
+					],
+					"savingThrowForced": [
+						"strength"
+					],
+					"_isCopy": true
+				},
+				"hpMax": 95,
+				"hpCurrent": 95,
+				"tempHp": 0,
+				"condition": "",
+				"cr": "5",
+				"ac": 13,
+				"initiative": -1,
+				"dex": 9,
+				"passive": 10,
+				"initScore": null,
 				"scaleBase": null
 			},
 			{
