@@ -106,45 +106,14 @@
 			]
 		},
 		{
-			"id": "p81",
+			"id": "p89",
 			"collapsed": false,
 			"items": [
 				{
-					"id": "p80",
-					"type": "entity",
-					"title": "Shambling Mound",
-					"doc": {
-						"n": "Shambling Mound",
-						"u": "shambling%20mound_xmm",
-						"s": "XMM",
-						"c": 1,
-						"cf": "Bestiary",
-						"sA": "MM'25"
-					},
-					"path": "",
-					"ref": "",
-					"text": "",
-					"value": 0,
-					"collapsed": false
-				}
-			]
-		},
-		{
-			"id": "p86",
-			"collapsed": false,
-			"items": [
-				{
-					"id": "p85",
-					"type": "entity",
-					"title": "Wolf",
-					"doc": {
-						"n": "Wolf",
-						"u": "wolf_xmm",
-						"s": "XMM",
-						"c": 1,
-						"cf": "Bestiary",
-						"sA": "MM'25"
-					},
+					"id": "p88",
+					"type": "encounter",
+					"title": "Encounter",
+					"doc": null,
 					"path": "",
 					"ref": "",
 					"text": "",

@@ -1127,6 +1127,39 @@ a.fiveetools-inline-link {
 	min-width: 0;
 }
 
+.fiveetools-character-card__name {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	min-width: 0;
+}
+
+.fiveetools-character-card__name h2 {
+	margin: 0.2em 0;
+	min-width: 0;
+}
+
+button.fiveetools-character-card__fold {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex: 0 0 auto;
+	width: 1.6em;
+	height: 1.6em;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	background: none;
+	box-shadow: none;
+	color: var(--text-muted);
+	cursor: pointer;
+}
+
+.fiveetools-character-card__header.is-collapsed .fiveetools-character-card__identity {
+	display: none;
+}
+
 .fiveetools-character-card__columns {
 	display: flex;
 	flex: 1 1 auto;

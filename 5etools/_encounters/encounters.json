@@ -27,7 +27,8 @@
 					"ac": 15,
 					"initiative": 0,
 					"dex": 10,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				},
 				{
 					"id": "c2",
@@ -46,7 +47,8 @@
 					"ac": 15,
 					"initiative": 0,
 					"dex": 10,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				}
 			],
 			"initOrderBaseline": null
@@ -82,7 +84,8 @@
 					"dex": 16,
 					"passive": 14,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				},
 				{
 					"id": "c16",
@@ -105,7 +108,8 @@
 					"dex": 12,
 					"passive": 12,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				},
 				{
 					"id": "c17",
@@ -128,7 +132,8 @@
 					"dex": 12,
 					"passive": 12,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				},
 				{
 					"id": "c15",
@@ -151,7 +156,8 @@
 					"dex": 11,
 					"passive": 18,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				}
 			],
 			"initOrderBaseline": null
@@ -183,7 +189,8 @@
 					"ac": 16,
 					"initiative": 4,
 					"dex": 18,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				}
 			],
 			"initOrderBaseline": null
@@ -219,7 +226,8 @@
 					"dex": 12,
 					"passive": 10,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				},
 				{
 					"id": "c2",
@@ -242,7 +250,8 @@
 					"dex": 12,
 					"passive": 10,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				},
 				{
 					"id": "c3",
@@ -265,7 +274,8 @@
 					"dex": 12,
 					"passive": 10,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				},
 				{
 					"id": "c4",
@@ -288,7 +298,8 @@
 					"dex": 12,
 					"passive": 10,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				}
 			],
 			"initOrderBaseline": null
@@ -324,7 +335,8 @@
 					"dex": 15,
 					"passive": 11,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				},
 				{
 					"id": "c36",
@@ -347,7 +359,8 @@
 					"dex": 15,
 					"passive": 11,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				}
 			],
 			"initOrderBaseline": null
@@ -355,8 +368,8 @@
 		{
 			"id": "e7",
 			"name": "Red Wizard + Bandits, Zentharim",
-			"updated": "2026-10-31T15:05:02.761Z",
-			"selectedId": "c5",
+			"updated": "2026-11-01T17:22:51.059Z",
+			"selectedId": "c11",
 			"party": {
 				"count": 10,
 				"level": 4
@@ -383,7 +396,8 @@
 					"dex": 16,
 					"passive": 10,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				},
 				{
 					"id": "c11",
@@ -396,17 +410,371 @@
 						"cf": "Bestiary",
 						"sA": "MPMM"
 					},
-					"hpMax": 71,
-					"hpCurrent": 71,
+					"hpMax": 49,
+					"hpCurrent": 49,
 					"tempHp": 0,
 					"condition": "",
-					"cr": "7",
-					"ac": 15,
-					"initiative": 3,
-					"dex": 16,
+					"cr": "3",
+					"ac": 13,
+					"initiative": 2,
+					"dex": 14,
 					"passive": 11,
 					"initScore": null,
-					"ent": null
+					"ent": {
+						"name": "Shadar-kai Shadow Dancer",
+						"source": "MPMM",
+						"page": 213,
+						"otherSources": [
+							{
+								"source": "MTF",
+								"page": 225
+							}
+						],
+						"size": [
+							"M"
+						],
+						"type": {
+							"type": "humanoid",
+							"tags": [
+								"elf"
+							]
+						},
+						"alignment": [
+							"A"
+						],
+						"ac": [
+							{
+								"ac": 13,
+								"from": [
+									"{@item studded leather armor|PHB|studded leather}"
+								]
+							}
+						],
+						"hp": {
+							"average": 49,
+							"formula": "9d8 + 9"
+						},
+						"speed": {
+							"walk": 30
+						},
+						"str": 12,
+						"dex": 14,
+						"con": 13,
+						"int": 11,
+						"wis": 12,
+						"cha": 12,
+						"save": {
+							"dex": "+4",
+							"cha": "+3"
+						},
+						"skill": {
+							"stealth": "+4"
+						},
+						"senses": [
+							"darkvision 60 ft."
+						],
+						"passive": 11,
+						"resist": [
+							"necrotic"
+						],
+						"conditionImmune": [
+							"charmed",
+							"exhaustion"
+						],
+						"languages": [
+							"Common",
+							"Elvish"
+						],
+						"cr": "3",
+						"trait": [
+							{
+								"name": "Fey Ancestry",
+								"entries": [
+									"The shadar-kai has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+								]
+							}
+						],
+						"action": [
+							{
+								"name": "Multiattack",
+								"entries": [
+									"The shadar-kai makes two Spiked Chain attacks.",
+									"It can use Shadow Jump after one of these attacks."
+								]
+							},
+							{
+								"name": "Spiked Chain",
+								"entries": [
+									"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage. The target must succeed on a {@dc 12} Dexterity saving throw or suffer one of the following effects (choose one or roll a {@dice d6}):",
+									{
+										"type": "list",
+										"style": "list-hang-notitle",
+										"items": [
+											{
+												"name": "1–2: Decay",
+												"type": "item",
+												"entries": [
+													"The target takes 11 ({@damage 2d10}) necrotic damage."
+												]
+											},
+											{
+												"name": "3–4: Grapple",
+												"type": "item",
+												"entries": [
+													"The target is {@condition grappled} (escape {@dc 12}) if it is a Medium or smaller creature. Until the grapple ends, the target is {@condition restrained}, and the shadar-kai can't grapple another target."
+												]
+											},
+											{
+												"name": "5–6: Topple",
+												"type": "item",
+												"entries": [
+													"The target is knocked {@condition prone}."
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						"bonus": [
+							{
+								"name": "Shadow Jump",
+								"entries": [
+									"The shadar-kai teleports, along with any equipment is it wearing or carrying, up to 30 feet to an unoccupied space it can see. Both the space it teleports from and the space it teleports to must be in dim light or darkness."
+								]
+							}
+						],
+						"environment": [
+							"forest",
+							"underdark",
+							"urban"
+						],
+						"soundClip": {
+							"type": "internal",
+							"path": "bestiary/shadow-dancer.opus"
+						},
+						"traitTags": [
+							"Fey Ancestry"
+						],
+						"senseTags": [
+							"D"
+						],
+						"actionTags": [
+							"Multiattack"
+						],
+						"languageTags": [
+							"C",
+							"E"
+						],
+						"damageTags": [
+							"N",
+							"P"
+						],
+						"miscTags": [
+							"MW",
+							"RCH"
+						],
+						"conditionInflict": [
+							"grappled",
+							"prone",
+							"restrained"
+						],
+						"savingThrowForced": [
+							"dexterity"
+						],
+						"hasToken": true,
+						"hasFluff": true,
+						"hasFluffImages": true,
+						"__prop": "monster",
+						"_pTypes": {
+							"types": [
+								"humanoid"
+							],
+							"tags": [
+								"elf"
+							],
+							"asText": "Humanoid (Elf)",
+							"asTextShort": "Humanoid (Elf)",
+							"typeSidekick": null,
+							"tagsSidekick": [],
+							"asTextSidekick": null
+						},
+						"_pCr": "3",
+						"_fCr": [
+							"3"
+						],
+						"_displayName": "Shadar-kai Shadow Dancer (CR 3)",
+						"_scaledCr": 3,
+						"_isScaledCr": true,
+						"_originalCr": "7"
+					},
+					"scaleBase": {
+						"name": "Shadar-kai Shadow Dancer",
+						"source": "MPMM",
+						"page": 213,
+						"otherSources": [
+							{
+								"source": "MTF",
+								"page": 225
+							}
+						],
+						"size": [
+							"M"
+						],
+						"type": {
+							"type": "humanoid",
+							"tags": [
+								"elf"
+							]
+						},
+						"alignment": [
+							"A"
+						],
+						"ac": [
+							{
+								"ac": 15,
+								"from": [
+									"{@item studded leather armor|PHB|studded leather}"
+								]
+							}
+						],
+						"hp": {
+							"average": 71,
+							"formula": "13d8 + 13"
+						},
+						"speed": {
+							"walk": 30
+						},
+						"str": 12,
+						"dex": 16,
+						"con": 13,
+						"int": 11,
+						"wis": 12,
+						"cha": 12,
+						"save": {
+							"dex": "+6",
+							"cha": "+4"
+						},
+						"skill": {
+							"stealth": "+6"
+						},
+						"senses": [
+							"darkvision 60 ft."
+						],
+						"passive": 11,
+						"resist": [
+							"necrotic"
+						],
+						"conditionImmune": [
+							"charmed",
+							"exhaustion"
+						],
+						"languages": [
+							"Common",
+							"Elvish"
+						],
+						"cr": "7",
+						"trait": [
+							{
+								"name": "Fey Ancestry",
+								"entries": [
+									"The shadar-kai has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+								]
+							}
+						],
+						"action": [
+							{
+								"name": "Multiattack",
+								"entries": [
+									"The shadar-kai makes three Spiked Chain attacks.",
+									"It can use Shadow Jump after one of these attacks."
+								]
+							},
+							{
+								"name": "Spiked Chain",
+								"entries": [
+									"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. The target must succeed on a {@dc 14} Dexterity saving throw or suffer one of the following effects (choose one or roll a {@dice d6}):",
+									{
+										"type": "list",
+										"style": "list-hang-notitle",
+										"items": [
+											{
+												"name": "1–2: Decay",
+												"type": "item",
+												"entries": [
+													"The target takes 22 ({@damage 4d10}) necrotic damage."
+												]
+											},
+											{
+												"name": "3–4: Grapple",
+												"type": "item",
+												"entries": [
+													"The target is {@condition grappled} (escape {@dc 14}) if it is a Medium or smaller creature. Until the grapple ends, the target is {@condition restrained}, and the shadar-kai can't grapple another target."
+												]
+											},
+											{
+												"name": "5–6: Topple",
+												"type": "item",
+												"entries": [
+													"The target is knocked {@condition prone}."
+												]
+											}
+										]
+									}
+								]
+							}
+						],
+						"bonus": [
+							{
+								"name": "Shadow Jump",
+								"entries": [
+									"The shadar-kai teleports, along with any equipment is it wearing or carrying, up to 30 feet to an unoccupied space it can see. Both the space it teleports from and the space it teleports to must be in dim light or darkness."
+								]
+							}
+						],
+						"environment": [
+							"forest",
+							"underdark",
+							"urban"
+						],
+						"soundClip": {
+							"type": "internal",
+							"path": "bestiary/shadow-dancer.opus"
+						},
+						"traitTags": [
+							"Fey Ancestry"
+						],
+						"senseTags": [
+							"D"
+						],
+						"actionTags": [
+							"Multiattack"
+						],
+						"languageTags": [
+							"C",
+							"E"
+						],
+						"damageTags": [
+							"N",
+							"P"
+						],
+						"miscTags": [
+							"MW",
+							"RCH"
+						],
+						"conditionInflict": [
+							"grappled",
+							"prone",
+							"restrained"
+						],
+						"savingThrowForced": [
+							"dexterity"
+						],
+						"hasToken": true,
+						"hasFluff": true,
+						"hasFluffImages": true,
+						"__prop": "monster"
+					}
 				},
 				{
 					"id": "c5",
@@ -429,7 +797,8 @@
 					"dex": 14,
 					"passive": 11,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				},
 				{
 					"id": "c6",
@@ -452,7 +821,8 @@
 					"dex": 12,
 					"passive": 10,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				},
 				{
 					"id": "c7",
@@ -475,7 +845,8 @@
 					"dex": 12,
 					"passive": 10,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				},
 				{
 					"id": "c8",
@@ -498,7 +869,8 @@
 					"dex": 12,
 					"passive": 10,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				},
 				{
 					"id": "c9",
@@ -521,7 +893,8 @@
 					"dex": 12,
 					"passive": 10,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				}
 			],
 			"initOrderBaseline": null
@@ -557,7 +930,8 @@
 					"dex": 17,
 					"passive": 12,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				},
 				{
 					"id": "c13",
@@ -580,7 +954,8 @@
 					"dex": 17,
 					"passive": 12,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				}
 			],
 			"initOrderBaseline": null
@@ -616,24 +991,402 @@
 					"dex": 8,
 					"passive": 10,
 					"initScore": null,
-					"ent": null
+					"ent": null,
+					"scaleBase": null
 				}
 			],
 			"initOrderBaseline": null
 		}
 	],
 	"instance": {
-		"name": "Shambling",
-		"savedId": "e9",
-		"pickedId": "e9",
-		"selectedId": "c52",
+		"name": "Red Wizard + Bandits, Zentharim",
+		"savedId": "e7",
+		"pickedId": "e7",
+		"selectedId": "c15",
 		"party": {
 			"count": 10,
 			"level": 4
 		},
 		"combatants": [
 			{
-				"id": "c46",
+				"id": "c11",
+				"label": "Shadar-kai Shadow Dancer 1",
+				"doc": {
+					"n": "Shadar-kai Shadow Dancer",
+					"u": "shadar-kai%20shadow%20dancer_mpmm",
+					"s": "MPMM",
+					"c": 1,
+					"cf": "Bestiary",
+					"sA": "MPMM"
+				},
+				"hpMax": 49,
+				"hpCurrent": 49,
+				"tempHp": 0,
+				"condition": "",
+				"cr": "3",
+				"ac": 13,
+				"initiative": 2,
+				"dex": 14,
+				"passive": 11,
+				"initScore": 3,
+				"ent": {
+					"name": "Shadar-kai Shadow Dancer",
+					"source": "MPMM",
+					"page": 213,
+					"otherSources": [
+						{
+							"source": "MTF",
+							"page": 225
+						}
+					],
+					"size": [
+						"M"
+					],
+					"type": {
+						"type": "humanoid",
+						"tags": [
+							"elf"
+						]
+					},
+					"alignment": [
+						"A"
+					],
+					"ac": [
+						{
+							"ac": 13,
+							"from": [
+								"{@item studded leather armor|PHB|studded leather}"
+							]
+						}
+					],
+					"hp": {
+						"average": 49,
+						"formula": "9d8 + 9"
+					},
+					"speed": {
+						"walk": 30
+					},
+					"str": 12,
+					"dex": 14,
+					"con": 13,
+					"int": 11,
+					"wis": 12,
+					"cha": 12,
+					"save": {
+						"dex": "+4",
+						"cha": "+3"
+					},
+					"skill": {
+						"stealth": "+4"
+					},
+					"senses": [
+						"darkvision 60 ft."
+					],
+					"passive": 11,
+					"resist": [
+						"necrotic"
+					],
+					"conditionImmune": [
+						"charmed",
+						"exhaustion"
+					],
+					"languages": [
+						"Common",
+						"Elvish"
+					],
+					"cr": "3",
+					"trait": [
+						{
+							"name": "Fey Ancestry",
+							"entries": [
+								"The shadar-kai has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+							]
+						}
+					],
+					"action": [
+						{
+							"name": "Multiattack",
+							"entries": [
+								"The shadar-kai makes two Spiked Chain attacks.",
+								"It can use Shadow Jump after one of these attacks."
+							]
+						},
+						{
+							"name": "Spiked Chain",
+							"entries": [
+								"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage. The target must succeed on a {@dc 12} Dexterity saving throw or suffer one of the following effects (choose one or roll a {@dice d6}):",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"name": "1–2: Decay",
+											"type": "item",
+											"entries": [
+												"The target takes 11 ({@damage 2d10}) necrotic damage."
+											]
+										},
+										{
+											"name": "3–4: Grapple",
+											"type": "item",
+											"entries": [
+												"The target is {@condition grappled} (escape {@dc 12}) if it is a Medium or smaller creature. Until the grapple ends, the target is {@condition restrained}, and the shadar-kai can't grapple another target."
+											]
+										},
+										{
+											"name": "5–6: Topple",
+											"type": "item",
+											"entries": [
+												"The target is knocked {@condition prone}."
+											]
+										}
+									]
+								}
+							]
+						}
+					],
+					"bonus": [
+						{
+							"name": "Shadow Jump",
+							"entries": [
+								"The shadar-kai teleports, along with any equipment is it wearing or carrying, up to 30 feet to an unoccupied space it can see. Both the space it teleports from and the space it teleports to must be in dim light or darkness."
+							]
+						}
+					],
+					"environment": [
+						"forest",
+						"underdark",
+						"urban"
+					],
+					"soundClip": {
+						"type": "internal",
+						"path": "bestiary/shadow-dancer.opus"
+					},
+					"traitTags": [
+						"Fey Ancestry"
+					],
+					"senseTags": [
+						"D"
+					],
+					"actionTags": [
+						"Multiattack"
+					],
+					"languageTags": [
+						"C",
+						"E"
+					],
+					"damageTags": [
+						"N",
+						"P"
+					],
+					"miscTags": [
+						"MW",
+						"RCH"
+					],
+					"conditionInflict": [
+						"grappled",
+						"prone",
+						"restrained"
+					],
+					"savingThrowForced": [
+						"dexterity"
+					],
+					"hasToken": true,
+					"hasFluff": true,
+					"hasFluffImages": true,
+					"__prop": "monster",
+					"_pTypes": {
+						"types": [
+							"humanoid"
+						],
+						"tags": [
+							"elf"
+						],
+						"asText": "Humanoid (Elf)",
+						"asTextShort": "Humanoid (Elf)",
+						"typeSidekick": null,
+						"tagsSidekick": [],
+						"asTextSidekick": null
+					},
+					"_pCr": "3",
+					"_fCr": [
+						"3"
+					],
+					"_displayName": "Shadar-kai Shadow Dancer (CR 3)",
+					"_scaledCr": 3,
+					"_isScaledCr": true,
+					"_originalCr": "7"
+				},
+				"scaleBase": {
+					"name": "Shadar-kai Shadow Dancer",
+					"source": "MPMM",
+					"page": 213,
+					"otherSources": [
+						{
+							"source": "MTF",
+							"page": 225
+						}
+					],
+					"size": [
+						"M"
+					],
+					"type": {
+						"type": "humanoid",
+						"tags": [
+							"elf"
+						]
+					},
+					"alignment": [
+						"A"
+					],
+					"ac": [
+						{
+							"ac": 15,
+							"from": [
+								"{@item studded leather armor|PHB|studded leather}"
+							]
+						}
+					],
+					"hp": {
+						"average": 71,
+						"formula": "13d8 + 13"
+					},
+					"speed": {
+						"walk": 30
+					},
+					"str": 12,
+					"dex": 16,
+					"con": 13,
+					"int": 11,
+					"wis": 12,
+					"cha": 12,
+					"save": {
+						"dex": "+6",
+						"cha": "+4"
+					},
+					"skill": {
+						"stealth": "+6"
+					},
+					"senses": [
+						"darkvision 60 ft."
+					],
+					"passive": 11,
+					"resist": [
+						"necrotic"
+					],
+					"conditionImmune": [
+						"charmed",
+						"exhaustion"
+					],
+					"languages": [
+						"Common",
+						"Elvish"
+					],
+					"cr": "7",
+					"trait": [
+						{
+							"name": "Fey Ancestry",
+							"entries": [
+								"The shadar-kai has advantage on saving throws against being {@condition charmed}, and magic can't put it to sleep."
+							]
+						}
+					],
+					"action": [
+						{
+							"name": "Multiattack",
+							"entries": [
+								"The shadar-kai makes three Spiked Chain attacks.",
+								"It can use Shadow Jump after one of these attacks."
+							]
+						},
+						{
+							"name": "Spiked Chain",
+							"entries": [
+								"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. The target must succeed on a {@dc 14} Dexterity saving throw or suffer one of the following effects (choose one or roll a {@dice d6}):",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"name": "1–2: Decay",
+											"type": "item",
+											"entries": [
+												"The target takes 22 ({@damage 4d10}) necrotic damage."
+											]
+										},
+										{
+											"name": "3–4: Grapple",
+											"type": "item",
+											"entries": [
+												"The target is {@condition grappled} (escape {@dc 14}) if it is a Medium or smaller creature. Until the grapple ends, the target is {@condition restrained}, and the shadar-kai can't grapple another target."
+											]
+										},
+										{
+											"name": "5–6: Topple",
+											"type": "item",
+											"entries": [
+												"The target is knocked {@condition prone}."
+											]
+										}
+									]
+								}
+							]
+						}
+					],
+					"bonus": [
+						{
+							"name": "Shadow Jump",
+							"entries": [
+								"The shadar-kai teleports, along with any equipment is it wearing or carrying, up to 30 feet to an unoccupied space it can see. Both the space it teleports from and the space it teleports to must be in dim light or darkness."
+							]
+						}
+					],
+					"environment": [
+						"forest",
+						"underdark",
+						"urban"
+					],
+					"soundClip": {
+						"type": "internal",
+						"path": "bestiary/shadow-dancer.opus"
+					},
+					"traitTags": [
+						"Fey Ancestry"
+					],
+					"senseTags": [
+						"D"
+					],
+					"actionTags": [
+						"Multiattack"
+					],
+					"languageTags": [
+						"C",
+						"E"
+					],
+					"damageTags": [
+						"N",
+						"P"
+					],
+					"miscTags": [
+						"MW",
+						"RCH"
+					],
+					"conditionInflict": [
+						"grappled",
+						"prone",
+						"restrained"
+					],
+					"savingThrowForced": [
+						"dexterity"
+					],
+					"hasToken": true,
+					"hasFluff": true,
+					"hasFluffImages": true,
+					"__prop": "monster"
+				}
+			},
+			{
+				"id": "c10",
 				"label": "Bandit Captain 1",
 				"doc": {
 					"n": "Bandit Captain",
@@ -653,33 +1406,11 @@
 				"dex": 16,
 				"passive": 10,
 				"initScore": null,
-				"ent": null
+				"ent": null,
+				"scaleBase": null
 			},
 			{
-				"id": "c47",
-				"label": "Shadar-kai Shadow Dancer 1",
-				"doc": {
-					"n": "Shadar-kai Shadow Dancer",
-					"u": "shadar-kai%20shadow%20dancer_mpmm",
-					"s": "MPMM",
-					"c": 1,
-					"cf": "Bestiary",
-					"sA": "MPMM"
-				},
-				"hpMax": 71,
-				"hpCurrent": 71,
-				"tempHp": 0,
-				"condition": "",
-				"cr": "7",
-				"ac": 15,
-				"initiative": 3,
-				"dex": 16,
-				"passive": 11,
-				"initScore": null,
-				"ent": null
-			},
-			{
-				"id": "c48",
+				"id": "c5",
 				"label": "Red Wizard 1",
 				"doc": {
 					"n": "Red Wizard",
@@ -690,7 +1421,7 @@
 					"sA": "RoT"
 				},
 				"hpMax": 40,
-				"hpCurrent": 31,
+				"hpCurrent": 40,
 				"tempHp": 0,
 				"condition": "",
 				"cr": "6",
@@ -699,10 +1430,175 @@
 				"dex": 14,
 				"passive": 11,
 				"initScore": null,
-				"ent": null
+				"ent": null,
+				"scaleBase": null
 			},
 			{
-				"id": "c49",
+				"id": "c15",
+				"label": "Young Green Dragon 1",
+				"doc": {
+					"n": "Young Green Dragon",
+					"u": "young%20green%20dragon_xmm",
+					"s": "XMM",
+					"c": 1,
+					"cf": "Bestiary",
+					"sA": "MM'25"
+				},
+				"ent": {
+					"name": "Young Green Dragon",
+					"group": [
+						"Chromatic Dragons"
+					],
+					"source": "XMM",
+					"page": 152,
+					"srd52": true,
+					"basicRules2024": true,
+					"referenceSources": [
+						"FRAiF"
+					],
+					"size": [
+						"L"
+					],
+					"type": {
+						"type": "dragon",
+						"tags": [
+							"chromatic"
+						]
+					},
+					"alignment": [
+						"L",
+						"E"
+					],
+					"ac": [
+						18
+					],
+					"hp": {
+						"average": 136,
+						"formula": "16d10 + 48"
+					},
+					"speed": {
+						"walk": 40,
+						"fly": 80,
+						"swim": 40
+					},
+					"initiative": {
+						"proficiency": 1
+					},
+					"str": 19,
+					"dex": 12,
+					"con": 17,
+					"int": 16,
+					"wis": 13,
+					"cha": 15,
+					"save": {
+						"dex": "+4",
+						"wis": "+4"
+					},
+					"skill": {
+						"deception": "+5",
+						"perception": "+7",
+						"stealth": "+4"
+					},
+					"senses": [
+						"Blindsight 30 ft.",
+						"Darkvision 120 ft."
+					],
+					"passive": 17,
+					"immune": [
+						"poison"
+					],
+					"conditionImmune": [
+						"poisoned"
+					],
+					"languages": [
+						"Common",
+						"Draconic"
+					],
+					"cr": "8",
+					"trait": [
+						{
+							"name": "Amphibious",
+							"entries": [
+								"The dragon can breathe air and water."
+							]
+						}
+					],
+					"action": [
+						{
+							"name": "Multiattack",
+							"entries": [
+								"The dragon makes three Rend attacks."
+							]
+						},
+						{
+							"name": "Rend",
+							"entries": [
+								"{@atkr m} {@hit 7}, reach 10 ft. {@h}11 ({@damage 2d6 + 4}) Slashing damage plus 7 ({@damage 2d6}) Poison damage."
+							]
+						},
+						{
+							"name": "Poison Breath {@recharge 5}",
+							"entries": [
+								"{@actSave con} {@dc 14}, each creature in a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone}. {@actSaveFail} 42 ({@damage 12d6}) Poison damage. {@actSaveSuccess} Half damage."
+							]
+						}
+					],
+					"environment": [
+						"forest"
+					],
+					"treasure": [
+						"arcana"
+					],
+					"dragonAge": "young",
+					"soundClip": {
+						"type": "internal",
+						"path": "bestiary/green-dragon.opus"
+					},
+					"traitTags": [
+						"Amphibious"
+					],
+					"senseTags": [
+						"B",
+						"SD"
+					],
+					"actionTags": [
+						"Breath Weapon",
+						"Multiattack"
+					],
+					"languageTags": [
+						"C",
+						"DR"
+					],
+					"damageTags": [
+						"I",
+						"S"
+					],
+					"miscTags": [
+						"MA",
+						"RCH"
+					],
+					"savingThrowForced": [
+						"constitution"
+					],
+					"hasToken": true,
+					"hasFluff": true,
+					"hasFluffImages": true,
+					"__prop": "monster"
+				},
+				"hpMax": 136,
+				"hpCurrent": 136,
+				"tempHp": 0,
+				"condition": "",
+				"cr": "8",
+				"ac": 18,
+				"initiative": 4,
+				"dex": 12,
+				"passive": 17,
+				"initScore": null,
+				"scaleBase": null
+			},
+			{
+				"id": "c6",
 				"label": "Bandit 1",
 				"doc": {
 					"n": "Bandit",
@@ -722,10 +1618,11 @@
 				"dex": 12,
 				"passive": 10,
 				"initScore": null,
-				"ent": null
+				"ent": null,
+				"scaleBase": null
 			},
 			{
-				"id": "c50",
+				"id": "c7",
 				"label": "Bandit 2",
 				"doc": {
 					"n": "Bandit",
@@ -736,7 +1633,7 @@
 					"sA": "MM'25"
 				},
 				"hpMax": 11,
-				"hpCurrent": 8,
+				"hpCurrent": 11,
 				"tempHp": 0,
 				"condition": "",
 				"cr": "1/8",
@@ -745,10 +1642,11 @@
 				"dex": 12,
 				"passive": 10,
 				"initScore": null,
-				"ent": null
+				"ent": null,
+				"scaleBase": null
 			},
 			{
-				"id": "c51",
+				"id": "c8",
 				"label": "Bandit 3",
 				"doc": {
 					"n": "Bandit",
@@ -759,7 +1657,7 @@
 					"sA": "MM'25"
 				},
 				"hpMax": 11,
-				"hpCurrent": 3,
+				"hpCurrent": 11,
 				"tempHp": 0,
 				"condition": "",
 				"cr": "1/8",
@@ -768,10 +1666,11 @@
 				"dex": 12,
 				"passive": 10,
 				"initScore": null,
-				"ent": null
+				"ent": null,
+				"scaleBase": null
 			},
 			{
-				"id": "c52",
+				"id": "c9",
 				"label": "Bandit 4",
 				"doc": {
 					"n": "Bandit",
@@ -791,10 +1690,11 @@
 				"dex": 12,
 				"passive": 10,
 				"initScore": null,
-				"ent": null
+				"ent": null,
+				"scaleBase": null
 			},
 			{
-				"id": "c45",
+				"id": "c14",
 				"label": "Shambling Mound 1",
 				"doc": {
 					"n": "Shambling Mound",
@@ -804,8 +1704,129 @@
 					"cf": "Bestiary",
 					"sA": "MM'25"
 				},
+				"ent": {
+					"name": "Shambling Mound",
+					"source": "XMM",
+					"page": 276,
+					"srd52": true,
+					"basicRules2024": true,
+					"referenceSources": [
+						"DrDe",
+						"DrDe-FWtVC",
+						"FRAiF",
+						"RHW"
+					],
+					"size": [
+						"L"
+					],
+					"type": "plant",
+					"alignment": [
+						"U"
+					],
+					"ac": [
+						15
+					],
+					"hp": {
+						"average": 110,
+						"formula": "13d10 + 39"
+					},
+					"speed": {
+						"walk": 30,
+						"swim": 20
+					},
+					"str": 18,
+					"dex": 8,
+					"con": 16,
+					"int": 5,
+					"wis": 10,
+					"cha": 5,
+					"skill": {
+						"stealth": "+3"
+					},
+					"senses": [
+						"Blindsight 60 ft."
+					],
+					"passive": 10,
+					"resist": [
+						"cold",
+						"fire"
+					],
+					"immune": [
+						"lightning"
+					],
+					"conditionImmune": [
+						"deafened",
+						"exhaustion"
+					],
+					"cr": "5",
+					"trait": [
+						{
+							"name": "Lightning Absorption",
+							"entries": [
+								"Whenever the shambling mound is subjected to Lightning damage, it regains a number of {@variantrule Hit Points|XPHB} equal to the Lightning damage dealt."
+							]
+						}
+					],
+					"action": [
+						{
+							"name": "Multiattack",
+							"entries": [
+								"The shambling mound makes three Charged Tendril attacks. It can replace one attack with a use of Engulf."
+							]
+						},
+						{
+							"name": "Charged Tendril",
+							"entries": [
+								"{@atkr m} {@hit 7}, reach 10 ft. {@h}7 ({@damage 1d6 + 4}) Bludgeoning damage plus 5 ({@damage 2d4}) Lightning damage. If the target is a Medium or smaller creature, the shambling mound pulls the target 5 feet straight toward itself."
+							]
+						},
+						{
+							"name": "Engulf",
+							"entries": [
+								"{@actSave str} {@dc 15}, one Medium or smaller creature within 5 feet. {@actSaveFail} The target is pulled into the shambling mound's space and has the {@condition Grappled|XPHB} condition (escape {@dc 14}). Until the grapple ends, the target has the {@condition Blinded|XPHB} and {@condition Restrained|XPHB} conditions, and it takes 10 ({@damage 3d6}) Lightning damage at the start of each of its turns. When the shambling mound moves, the {@condition Grappled|XPHB} target moves with it, costing it no extra movement. The shambling mound can have only one creature {@condition Grappled|XPHB} by this action at a time."
+							]
+						}
+					],
+					"environment": [
+						"forest",
+						"swamp"
+					],
+					"soundClip": {
+						"type": "internal",
+						"path": "bestiary/shambling-mound.opus"
+					},
+					"traitTags": [
+						"Damage Absorption"
+					],
+					"senseTags": [
+						"B"
+					],
+					"actionTags": [
+						"Multiattack"
+					],
+					"damageTags": [
+						"B",
+						"L"
+					],
+					"miscTags": [
+						"MA",
+						"RCH"
+					],
+					"conditionInflict": [
+						"blinded",
+						"grappled",
+						"restrained"
+					],
+					"savingThrowForced": [
+						"strength"
+					],
+					"hasToken": true,
+					"hasFluff": true,
+					"hasFluffImages": true,
+					"__prop": "monster"
+				},
 				"hpMax": 110,
-				"hpCurrent": 0,
+				"hpCurrent": 110,
 				"tempHp": 0,
 				"condition": "",
 				"cr": "5",
@@ -814,7 +1835,7 @@
 				"dex": 8,
 				"passive": 10,
 				"initScore": null,
-				"ent": null
+				"scaleBase": null
 			}
 		],
 		"showBlank": false,
