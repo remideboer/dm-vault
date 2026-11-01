@@ -1,0 +1,15 @@
+{
+  "notesFolder": "5etools",
+  "imageBaseUrl": "https://5e.tools",
+  "ddbProxyUrl": "https://ymiat-ddb-character-proxy.gitaarremi.workers.dev",
+  "style": "one",
+  "dice3d": true,
+  "dicePublic": true,
+  "convertHeicOnPaste": true,
+  "focusListOnNav": true,
+  "dmScreenOnStart": true,
+  "tableInitBackground": "#000000",
+  "tableInitText": "#ffffff",
+  "fulltextSearch": false,
+  "tableInitHeight": 4
+}

@@ -1,0 +1,3 @@
+# The Well of Rebirth  
+Een overledene kan hier ingelegd worden om herboren te worden in zijn lichaam. Dit kan alleen als de dood nog niet te lang geleden is ingetreden. Ongeveer een week. Er moet dan een ritueel worden uitgevoerd om contact te maken met de ziel van de overledene, als na vragen deze terug wil keren dan maakt de bron dit mogelijk door de herstellende, levensgevende energieen die er door heen stromen. Het lichaam moet er dan ook nog een week in liggen om de schade ongedaan te maken en de verbinding met het lichaam weer voldoende intact te krijgen.  
+Er zijn materialen nodig om de levensenergie van de bron goed zijn werk te kunnen laten doen. ?  

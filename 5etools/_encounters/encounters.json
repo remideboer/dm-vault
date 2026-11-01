@@ -1,0 +1,855 @@
+{
+	"encounters": [
+		{
+			"id": "e1",
+			"name": "Ghoul-kin Bulwark Guards",
+			"updated": "2026-10-18T18:48:06.502Z",
+			"selectedId": "c2",
+			"party": {
+				"count": 4,
+				"level": 4
+			},
+			"combatants": [
+				{
+					"id": "c1",
+					"label": "Ghoul-kin Bulwark 1",
+					"doc": {
+						"n": "Ghoul-kin Bulwark",
+						"u": "ghoul-kin%20bulwark_hb",
+						"s": "HB",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "HB"
+					},
+					"hpMax": 63,
+					"hpCurrent": 63,
+					"cr": "5",
+					"ac": 15,
+					"initiative": 0,
+					"dex": 10,
+					"ent": null
+				},
+				{
+					"id": "c2",
+					"label": "Ghoul-kin Bulwark 2",
+					"doc": {
+						"n": "Ghoul-kin Bulwark",
+						"u": "ghoul-kin%20bulwark_hb",
+						"s": "HB",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "HB"
+					},
+					"hpMax": 63,
+					"hpCurrent": 63,
+					"cr": "5",
+					"ac": 15,
+					"initiative": 0,
+					"dex": 10,
+					"ent": null
+				}
+			],
+			"initOrderBaseline": null
+		},
+		{
+			"id": "e2",
+			"name": "Weird",
+			"updated": "2026-10-28T17:54:48.666Z",
+			"selectedId": "c15",
+			"party": {
+				"count": 5,
+				"level": 4
+			},
+			"combatants": [
+				{
+					"id": "c18",
+					"label": "Bodak 1",
+					"doc": {
+						"n": "Bodak",
+						"u": "bodak_vgm",
+						"s": "VGM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "VGM"
+					},
+					"hpMax": 58,
+					"hpCurrent": 58,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "6",
+					"ac": 15,
+					"initiative": 3,
+					"dex": 16,
+					"passive": 14,
+					"initScore": null,
+					"ent": null
+				},
+				{
+					"id": "c16",
+					"label": "Banderhobb 1",
+					"doc": {
+						"n": "Banderhobb",
+						"u": "banderhobb_mpmm",
+						"s": "MPMM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MPMM"
+					},
+					"hpMax": 84,
+					"hpCurrent": 84,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "5",
+					"ac": 15,
+					"initiative": 1,
+					"dex": 12,
+					"passive": 12,
+					"initScore": null,
+					"ent": null
+				},
+				{
+					"id": "c17",
+					"label": "Banderhobb 2",
+					"doc": {
+						"n": "Banderhobb",
+						"u": "banderhobb_vgm",
+						"s": "VGM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "VGM"
+					},
+					"hpMax": 84,
+					"hpCurrent": 84,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "5",
+					"ac": 15,
+					"initiative": 1,
+					"dex": 12,
+					"passive": 12,
+					"initScore": null,
+					"ent": null
+				},
+				{
+					"id": "c15",
+					"label": "Animated Tile Chimera 1",
+					"doc": {
+						"n": "Animated Tile Chimera",
+						"u": "animated%20tile%20chimera_rot",
+						"s": "RoT",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "RoT"
+					},
+					"hpMax": 114,
+					"hpCurrent": 114,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "6",
+					"ac": 14,
+					"initiative": 0,
+					"dex": 11,
+					"passive": 18,
+					"initScore": null,
+					"ent": null
+				}
+			],
+			"initOrderBaseline": null
+		},
+		{
+			"id": "e4",
+			"name": "Demon Wandering Boss",
+			"updated": "2026-10-25T19:50:50.548Z",
+			"selectedId": "c32",
+			"party": {
+				"count": 5,
+				"level": 4
+			},
+			"combatants": [
+				{
+					"id": "c32",
+					"label": "Armanite 1",
+					"doc": {
+						"n": "Armanite",
+						"u": "armanite_mpmm",
+						"s": "MPMM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MPMM"
+					},
+					"hpMax": 94,
+					"hpCurrent": 94,
+					"cr": "7",
+					"ac": 16,
+					"initiative": 4,
+					"dex": 18,
+					"ent": null
+				}
+			],
+			"initOrderBaseline": null
+		},
+		{
+			"id": "e5",
+			"name": "Orc War Chief, Orc",
+			"updated": "2026-10-28T21:11:18.392Z",
+			"selectedId": "c4",
+			"party": {
+				"count": 5,
+				"level": 4
+			},
+			"combatants": [
+				{
+					"id": "c1",
+					"label": "Orc War Chief 1",
+					"doc": {
+						"n": "Orc War Chief",
+						"u": "orc%20war%20chief_mm",
+						"s": "MM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MM'14"
+					},
+					"hpMax": 93,
+					"hpCurrent": 93,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "4",
+					"ac": 16,
+					"initiative": 1,
+					"dex": 12,
+					"passive": 10,
+					"initScore": null,
+					"ent": null
+				},
+				{
+					"id": "c2",
+					"label": "Orc 1",
+					"doc": {
+						"n": "Orc",
+						"u": "orc_mm",
+						"s": "MM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MM'14"
+					},
+					"hpMax": 15,
+					"hpCurrent": 15,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "1/2",
+					"ac": 13,
+					"initiative": 1,
+					"dex": 12,
+					"passive": 10,
+					"initScore": null,
+					"ent": null
+				},
+				{
+					"id": "c3",
+					"label": "Orc 2",
+					"doc": {
+						"n": "Orc",
+						"u": "orc_mm",
+						"s": "MM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MM'14"
+					},
+					"hpMax": 15,
+					"hpCurrent": 15,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "1/2",
+					"ac": 13,
+					"initiative": 1,
+					"dex": 12,
+					"passive": 10,
+					"initScore": null,
+					"ent": null
+				},
+				{
+					"id": "c4",
+					"label": "Orc 3",
+					"doc": {
+						"n": "Orc",
+						"u": "orc_mm",
+						"s": "MM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MM'14"
+					},
+					"hpMax": 15,
+					"hpCurrent": 15,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "1/2",
+					"ac": 13,
+					"initiative": 1,
+					"dex": 12,
+					"passive": 10,
+					"initScore": null,
+					"ent": null
+				}
+			],
+			"initOrderBaseline": null
+		},
+		{
+			"id": "e6",
+			"name": "Displacer Beasts",
+			"updated": "2026-10-31T08:42:18.787Z",
+			"selectedId": "c36",
+			"party": {
+				"count": 5,
+				"level": 4
+			},
+			"combatants": [
+				{
+					"id": "c35",
+					"label": "Displacer Beast 1",
+					"doc": {
+						"n": "Displacer Beast",
+						"u": "displacer%20beast_xmm",
+						"s": "XMM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MM'25"
+					},
+					"hpMax": 76,
+					"hpCurrent": 76,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "3",
+					"ac": 13,
+					"initiative": 4,
+					"dex": 15,
+					"passive": 11,
+					"initScore": null,
+					"ent": null
+				},
+				{
+					"id": "c36",
+					"label": "Displacer Beast 2",
+					"doc": {
+						"n": "Displacer Beast",
+						"u": "displacer%20beast_xmm",
+						"s": "XMM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MM'25"
+					},
+					"hpMax": 76,
+					"hpCurrent": 76,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "3",
+					"ac": 13,
+					"initiative": 4,
+					"dex": 15,
+					"passive": 11,
+					"initScore": null,
+					"ent": null
+				}
+			],
+			"initOrderBaseline": null
+		},
+		{
+			"id": "e7",
+			"name": "Red Wizard + Bandits, Zentharim",
+			"updated": "2026-10-31T15:05:02.761Z",
+			"selectedId": "c5",
+			"party": {
+				"count": 10,
+				"level": 4
+			},
+			"combatants": [
+				{
+					"id": "c10",
+					"label": "Bandit Captain 1",
+					"doc": {
+						"n": "Bandit Captain",
+						"u": "bandit%20captain_xmm",
+						"s": "XMM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MM'25"
+					},
+					"hpMax": 52,
+					"hpCurrent": 52,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "2",
+					"ac": 15,
+					"initiative": 3,
+					"dex": 16,
+					"passive": 10,
+					"initScore": null,
+					"ent": null
+				},
+				{
+					"id": "c11",
+					"label": "Shadar-kai Shadow Dancer 1",
+					"doc": {
+						"n": "Shadar-kai Shadow Dancer",
+						"u": "shadar-kai%20shadow%20dancer_mpmm",
+						"s": "MPMM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MPMM"
+					},
+					"hpMax": 71,
+					"hpCurrent": 71,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "7",
+					"ac": 15,
+					"initiative": 3,
+					"dex": 16,
+					"passive": 11,
+					"initScore": null,
+					"ent": null
+				},
+				{
+					"id": "c5",
+					"label": "Red Wizard 1",
+					"doc": {
+						"n": "Red Wizard",
+						"u": "red%20wizard_rot",
+						"s": "RoT",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "RoT"
+					},
+					"hpMax": 40,
+					"hpCurrent": 40,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "6",
+					"ac": 12,
+					"initiative": 2,
+					"dex": 14,
+					"passive": 11,
+					"initScore": null,
+					"ent": null
+				},
+				{
+					"id": "c6",
+					"label": "Bandit 1",
+					"doc": {
+						"n": "Bandit",
+						"u": "bandit_xmm",
+						"s": "XMM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MM'25"
+					},
+					"hpMax": 11,
+					"hpCurrent": 11,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "1/8",
+					"ac": 12,
+					"initiative": 1,
+					"dex": 12,
+					"passive": 10,
+					"initScore": null,
+					"ent": null
+				},
+				{
+					"id": "c7",
+					"label": "Bandit 2",
+					"doc": {
+						"n": "Bandit",
+						"u": "bandit_xmm",
+						"s": "XMM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MM'25"
+					},
+					"hpMax": 11,
+					"hpCurrent": 11,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "1/8",
+					"ac": 12,
+					"initiative": 1,
+					"dex": 12,
+					"passive": 10,
+					"initScore": null,
+					"ent": null
+				},
+				{
+					"id": "c8",
+					"label": "Bandit 3",
+					"doc": {
+						"n": "Bandit",
+						"u": "bandit_xmm",
+						"s": "XMM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MM'25"
+					},
+					"hpMax": 11,
+					"hpCurrent": 11,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "1/8",
+					"ac": 12,
+					"initiative": 1,
+					"dex": 12,
+					"passive": 10,
+					"initScore": null,
+					"ent": null
+				},
+				{
+					"id": "c9",
+					"label": "Bandit 4",
+					"doc": {
+						"n": "Bandit",
+						"u": "bandit_xmm",
+						"s": "XMM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MM'25"
+					},
+					"hpMax": 11,
+					"hpCurrent": 11,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "1/8",
+					"ac": 12,
+					"initiative": 1,
+					"dex": 12,
+					"passive": 10,
+					"initScore": null,
+					"ent": null
+				}
+			],
+			"initOrderBaseline": null
+		},
+		{
+			"id": "e8",
+			"name": "Flame skulls",
+			"updated": "2026-10-31T16:55:46.145Z",
+			"selectedId": "c13",
+			"party": {
+				"count": 10,
+				"level": 4
+			},
+			"combatants": [
+				{
+					"id": "c12",
+					"label": "Flameskull 1",
+					"doc": {
+						"n": "Flameskull",
+						"u": "flameskull_xmm",
+						"s": "XMM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MM'25"
+					},
+					"hpMax": 40,
+					"hpCurrent": 40,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "4",
+					"ac": 13,
+					"initiative": 3,
+					"dex": 17,
+					"passive": 12,
+					"initScore": null,
+					"ent": null
+				},
+				{
+					"id": "c13",
+					"label": "Flameskull 2",
+					"doc": {
+						"n": "Flameskull",
+						"u": "flameskull_xmm",
+						"s": "XMM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MM'25"
+					},
+					"hpMax": 40,
+					"hpCurrent": 40,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "4",
+					"ac": 13,
+					"initiative": 3,
+					"dex": 17,
+					"passive": 12,
+					"initScore": null,
+					"ent": null
+				}
+			],
+			"initOrderBaseline": null
+		},
+		{
+			"id": "e9",
+			"name": "Shambling",
+			"updated": "2026-10-31T21:31:19.078Z",
+			"selectedId": "c45",
+			"party": {
+				"count": 10,
+				"level": 4
+			},
+			"combatants": [
+				{
+					"id": "c45",
+					"label": "Shambling Mound 1",
+					"doc": {
+						"n": "Shambling Mound",
+						"u": "shambling%20mound_xmm",
+						"s": "XMM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MM'25"
+					},
+					"hpMax": 110,
+					"hpCurrent": 68,
+					"tempHp": 0,
+					"condition": "",
+					"cr": "5",
+					"ac": 15,
+					"initiative": -1,
+					"dex": 8,
+					"passive": 10,
+					"initScore": null,
+					"ent": null
+				}
+			],
+			"initOrderBaseline": null
+		}
+	],
+	"instance": {
+		"name": "Shambling",
+		"savedId": "e9",
+		"pickedId": "e9",
+		"selectedId": "c52",
+		"party": {
+			"count": 10,
+			"level": 4
+		},
+		"combatants": [
+			{
+				"id": "c46",
+				"label": "Bandit Captain 1",
+				"doc": {
+					"n": "Bandit Captain",
+					"u": "bandit%20captain_xmm",
+					"s": "XMM",
+					"c": 1,
+					"cf": "Bestiary",
+					"sA": "MM'25"
+				},
+				"hpMax": 52,
+				"hpCurrent": 52,
+				"tempHp": 0,
+				"condition": "",
+				"cr": "2",
+				"ac": 15,
+				"initiative": 3,
+				"dex": 16,
+				"passive": 10,
+				"initScore": null,
+				"ent": null
+			},
+			{
+				"id": "c47",
+				"label": "Shadar-kai Shadow Dancer 1",
+				"doc": {
+					"n": "Shadar-kai Shadow Dancer",
+					"u": "shadar-kai%20shadow%20dancer_mpmm",
+					"s": "MPMM",
+					"c": 1,
+					"cf": "Bestiary",
+					"sA": "MPMM"
+				},
+				"hpMax": 71,
+				"hpCurrent": 71,
+				"tempHp": 0,
+				"condition": "",
+				"cr": "7",
+				"ac": 15,
+				"initiative": 3,
+				"dex": 16,
+				"passive": 11,
+				"initScore": null,
+				"ent": null
+			},
+			{
+				"id": "c48",
+				"label": "Red Wizard 1",
+				"doc": {
+					"n": "Red Wizard",
+					"u": "red%20wizard_rot",
+					"s": "RoT",
+					"c": 1,
+					"cf": "Bestiary",
+					"sA": "RoT"
+				},
+				"hpMax": 40,
+				"hpCurrent": 31,
+				"tempHp": 0,
+				"condition": "",
+				"cr": "6",
+				"ac": 12,
+				"initiative": 2,
+				"dex": 14,
+				"passive": 11,
+				"initScore": null,
+				"ent": null
+			},
+			{
+				"id": "c49",
+				"label": "Bandit 1",
+				"doc": {
+					"n": "Bandit",
+					"u": "bandit_xmm",
+					"s": "XMM",
+					"c": 1,
+					"cf": "Bestiary",
+					"sA": "MM'25"
+				},
+				"hpMax": 11,
+				"hpCurrent": 11,
+				"tempHp": 0,
+				"condition": "",
+				"cr": "1/8",
+				"ac": 12,
+				"initiative": 1,
+				"dex": 12,
+				"passive": 10,
+				"initScore": null,
+				"ent": null
+			},
+			{
+				"id": "c50",
+				"label": "Bandit 2",
+				"doc": {
+					"n": "Bandit",
+					"u": "bandit_xmm",
+					"s": "XMM",
+					"c": 1,
+					"cf": "Bestiary",
+					"sA": "MM'25"
+				},
+				"hpMax": 11,
+				"hpCurrent": 8,
+				"tempHp": 0,
+				"condition": "",
+				"cr": "1/8",
+				"ac": 12,
+				"initiative": 1,
+				"dex": 12,
+				"passive": 10,
+				"initScore": null,
+				"ent": null
+			},
+			{
+				"id": "c51",
+				"label": "Bandit 3",
+				"doc": {
+					"n": "Bandit",
+					"u": "bandit_xmm",
+					"s": "XMM",
+					"c": 1,
+					"cf": "Bestiary",
+					"sA": "MM'25"
+				},
+				"hpMax": 11,
+				"hpCurrent": 3,
+				"tempHp": 0,
+				"condition": "",
+				"cr": "1/8",
+				"ac": 12,
+				"initiative": 1,
+				"dex": 12,
+				"passive": 10,
+				"initScore": null,
+				"ent": null
+			},
+			{
+				"id": "c52",
+				"label": "Bandit 4",
+				"doc": {
+					"n": "Bandit",
+					"u": "bandit_xmm",
+					"s": "XMM",
+					"c": 1,
+					"cf": "Bestiary",
+					"sA": "MM'25"
+				},
+				"hpMax": 11,
+				"hpCurrent": 11,
+				"tempHp": 0,
+				"condition": "",
+				"cr": "1/8",
+				"ac": 12,
+				"initiative": 1,
+				"dex": 12,
+				"passive": 10,
+				"initScore": null,
+				"ent": null
+			},
+			{
+				"id": "c45",
+				"label": "Shambling Mound 1",
+				"doc": {
+					"n": "Shambling Mound",
+					"u": "shambling%20mound_xmm",
+					"s": "XMM",
+					"c": 1,
+					"cf": "Bestiary",
+					"sA": "MM'25"
+				},
+				"hpMax": 110,
+				"hpCurrent": 0,
+				"tempHp": 0,
+				"condition": "",
+				"cr": "5",
+				"ac": 15,
+				"initiative": -1,
+				"dex": 8,
+				"passive": 10,
+				"initScore": null,
+				"ent": null
+			}
+		],
+		"showBlank": false,
+		"blankDraft": {
+			"name": "",
+			"size": "M",
+			"type": "humanoid",
+			"alignment": "N",
+			"ac": "10",
+			"hpFormula": "2d8+2",
+			"speed": "30",
+			"str": "10",
+			"dex": "10",
+			"con": "10",
+			"int": "10",
+			"wis": "10",
+			"cha": "10",
+			"saves": "",
+			"skills": "",
+			"passive": "10",
+			"senses": "",
+			"resist": "",
+			"immune": "",
+			"conditionImmune": "",
+			"languages": "Common",
+			"cr": "0",
+			"crOverride": false,
+			"traits": [],
+			"actions": [],
+			"bonus": [],
+			"reactions": [],
+			"spells": [],
+			"spellAbility": "int"
+		},
+		"saveToHomebrew": false,
+		"initOrderBaseline": null
+	}
+}

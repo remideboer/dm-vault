@@ -1,0 +1,14 @@
+# Tokens, art, covers, and maps fetched from the image host on first view.
+# Missing files are downloaded again.
+.obsidian/plugins/5etools/cache/
+
+# Full-text search index. Rebuilt when that search is turned on.
+5etools/_cache/
+
+# Battle maps. The map tools run on desktop only.
+5etools/maps/
+5etools/_campaigns/*/maps/
+atlas-vtt/
+Bestiary/
+img/
+sunless-citadel/

@@ -1,0 +1,157 @@
+{
+	"columns": [
+		{
+			"id": "p37",
+			"collapsed": false,
+			"items": [
+				{
+					"id": "p38",
+					"type": "players",
+					"title": "Players",
+					"doc": null,
+					"path": "",
+					"ref": "",
+					"text": "",
+					"value": 0,
+					"collapsed": false,
+					"characters": [
+						"pdf-alora-tim",
+						"pdf-br-nach-2024",
+						"pdf-klaus-the-flame-of-verdict-brandtmann",
+						"pdf-mel-anom-ellon",
+						"pdf-rasp-yutin"
+					]
+				}
+			]
+		},
+		{
+			"id": "p48",
+			"collapsed": false,
+			"items": [
+				{
+					"id": "p55",
+					"type": "dice",
+					"title": "Dice",
+					"doc": null,
+					"path": "",
+					"ref": "",
+					"text": "",
+					"value": 0,
+					"collapsed": true,
+					"dice": {
+						"amount": "1",
+						"customAmount": 1,
+						"modifier": 0,
+						"useModifier": false,
+						"advantage": false,
+						"disadvantage": false,
+						"history": [
+							{
+								"id": "1793494322719-g5hix",
+								"faces": 10,
+								"notation": "1d10",
+								"mode": "",
+								"total": 8,
+								"text": "8"
+							},
+							{
+								"id": "1793494316437-m24vz",
+								"faces": 12,
+								"notation": "1d12",
+								"mode": "",
+								"total": 7,
+								"text": "7"
+							},
+							{
+								"id": "1793494312235-k29f0",
+								"faces": 10,
+								"notation": "1d10",
+								"mode": "",
+								"total": 7,
+								"text": "7"
+							},
+							{
+								"id": "1793494305252-hnhs6",
+								"faces": 100,
+								"notation": "1d100",
+								"mode": "",
+								"total": 54,
+								"text": "54"
+							}
+						]
+					}
+				},
+				{
+					"id": "p82",
+					"type": "counter",
+					"title": "Shambling mound",
+					"doc": null,
+					"path": "",
+					"ref": "",
+					"text": "",
+					"value": 18,
+					"collapsed": false
+				},
+				{
+					"id": "p87",
+					"type": "counter",
+					"title": "Wolf",
+					"doc": null,
+					"path": "",
+					"ref": "",
+					"text": "",
+					"value": 29,
+					"collapsed": false
+				}
+			]
+		},
+		{
+			"id": "p81",
+			"collapsed": false,
+			"items": [
+				{
+					"id": "p80",
+					"type": "entity",
+					"title": "Shambling Mound",
+					"doc": {
+						"n": "Shambling Mound",
+						"u": "shambling%20mound_xmm",
+						"s": "XMM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MM'25"
+					},
+					"path": "",
+					"ref": "",
+					"text": "",
+					"value": 0,
+					"collapsed": false
+				}
+			]
+		},
+		{
+			"id": "p86",
+			"collapsed": false,
+			"items": [
+				{
+					"id": "p85",
+					"type": "entity",
+					"title": "Wolf",
+					"doc": {
+						"n": "Wolf",
+						"u": "wolf_xmm",
+						"s": "XMM",
+						"c": 1,
+						"cf": "Bestiary",
+						"sA": "MM'25"
+					},
+					"path": "",
+					"ref": "",
+					"text": "",
+					"value": 0,
+					"collapsed": false
+				}
+			]
+		}
+	]
+}

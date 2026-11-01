@@ -1,0 +1,264 @@
+{
+  "main": {
+    "id": "316616b6cf012101",
+    "type": "split",
+    "children": [
+      {
+        "id": "6655a0e75063e218",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b07b1f046d3b3188",
+            "type": "leaf",
+            "state": {
+              "type": "fiveetools-library",
+              "state": {
+                "navId": "dmscreen",
+                "query": "",
+                "doc": null,
+                "navCollapsed": false,
+                "listCollapsed": false
+              },
+              "icon": "fiveetools",
+              "title": "5etools library"
+            }
+          },
+          {
+            "id": "58871512dc556957",
+            "type": "leaf",
+            "state": {
+              "type": "atlas-vtt-dashboard",
+              "state": {},
+              "icon": "home",
+              "title": "Atlas dashboard"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "af29af676468ad76",
+    "type": "split",
+    "children": [
+      {
+        "id": "b36afd4e7891f25a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6c6b7ed98c0f8fa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Verkenner"
+            }
+          },
+          {
+            "id": "7eb6aa6a1dd843a3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f64376c15d317b0c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bladwijzers"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 362.3000183105469
+  },
+  "right": {
+    "id": "b2c10468d0696ba6",
+    "type": "split",
+    "children": [
+      {
+        "id": "10e17cad3c52bb28",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "b275e2e4cb4762c3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Terugverwijzing"
+            }
+          },
+          {
+            "id": "39a380ae0e6b1f3b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled.base",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "158313de97eed290",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "65cf317163818849",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fb77670e32d9844f",
+        "type": "tabs",
+        "dimension": 50,
+        "children": [
+          {
+            "id": "34b69f96e3802bd8",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {},
+              "icon": "skull",
+              "title": "Combatant"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 460.699951171875,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "5etools:Open 5etools library": false,
+      "atlas-vtt:Open dashboard": false,
+      "command-palette:Open opdrachtenpaneel": false,
+      "switcher:Open snel wisselen": false,
+      "graph:Open grafiek weergave": false,
+      "canvas:Nieuw doek aanmaken": false,
+      "daily-notes:Open de notitie van vandaag": false,
+      "templates:Sjabloon invoegen": false,
+      "bases:Nieuwe basis maken": false,
+      "atlas-vtt:Display image on player view": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "windrose-md:Open map view": false
+    }
+  },
+  "active": "b07b1f046d3b3188",
+  "lastOpenFiles": [
+    "5etools/_characters/pdf-rasp-yutin.md",
+    "5etools/_campaigns/arkaste/players/rasp-yutin.md",
+    "5etools/_campaigns/arkaste/sessions/session-10.md",
+    "5etools/_campaigns/arkaste/sessions/seesion-10.md",
+    "5etools/_cache/fulltext.json",
+    "5etools/_cache",
+    "5etools/_characters/pdf-klaus-the-flame-of-verdict-brandtmann.md",
+    "5etools/_characters/pdf-br-nach-2024.md",
+    "5etools/_characters/pdf-alora-tim.md",
+    "5etools/_characters/172412754.md",
+    "5etools/_characters/pdf-mel-anom-ellon.md",
+    "5etools/_characters/172414283.md",
+    "5etools/_characters/172413858.md",
+    "5etools/_characters/172413107.md",
+    "5etools/_characters/161923540.md",
+    "5etools/_characters/172325760.md",
+    "5etools/_characters/110613015.md",
+    "5etools/Bestiary/XMM/Displacer Beast.md",
+    "5etools/_images/Bestiary/XMM/Displacer Beast.webp",
+    "Pasted image 20261031092451.png",
+    "Pasted image 20261031092352.png",
+    "Pasted image 20261031091815.png",
+    "5etools/_campaigns/arkaste/notes/Moander.md",
+    "5etools/_campaigns/arkaste/notes/NPC's.md",
+    "5etools/_campaigns/arkaste/notes/Prep Template.md",
+    "5etools/_campaigns/arkaste/notes/ARKASTE - d'Alphen Burden of Blood.md",
+    "5etools/maps/dungeon-feast-gridless-60x45/layers/00-fog-live.png",
+    "5etools/maps/dungeon-feast-gridless-60x45/scene.json",
+    "5etools/maps/dungeon-feast-gridless-60x45/layers/00-dungeon-feast-gridless-60x45.png",
+    "5etools/maps/dungeon-feast-gridless-60x45/layers",
+    "5etools/maps/dungeon-feast-gridless-60x45",
+    "5etools/_homebrew.zip",
+    "sunless-citadel/Tales from the Yawning Portal_ The Sunless Citadel.md",
+    "5etools/tables/attack-miss-table.md",
+    "5etools/_homebrew/img/ghoul-kin-bulwark-mvshx13t.png",
+    "5etools/_homebrew/img",
+    "5etools/_campaigns/arkaste/players/player-01.md",
+    "5etools/_campaigns/arkaste/players/klaus-the-flame-of-verdict-brandtmann.md",
+    "5etools/_campaigns/arkaste/players/mel-anom-ellon.md",
+    "5etools/_campaigns/arkaste/players/br-nach-2024.md",
+    "5etools/_characters/_avatars/pdf-rasp-yutin.jpg",
+    "5etools/_characters/_avatars/pdf-mel-anom-ellon.jpg",
+    "5etools/_characters/_avatars/pdf-klaus-the-flame-of-verdict-brandtmann.jpg",
+    "5etools/_characters/_avatars",
+    "5etools/_characters",
+    "atlas-vtt/collections/ARKASTE/scenes/Myth Drannor Ruinsc [27x48].atlasmap",
+    "Naamloos.canvas",
+    "Naamloos 1.canvas",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}
