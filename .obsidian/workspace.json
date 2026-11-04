@@ -13,7 +13,7 @@
             "state": {
               "type": "fiveetools-library",
               "state": {
-                "navId": "dmscreen",
+                "navId": "table",
                 "query": "",
                 "doc": null,
                 "navCollapsed": false,
@@ -209,42 +209,7 @@
       "windrose-md:Open map view": false
     }
   },
-  "floating": {
-    "id": "e315510eab19fe8b",
-    "type": "floating",
-    "children": [
-      {
-        "id": "dc65ed3de4a31646",
-        "type": "window",
-        "children": [
-          {
-            "id": "a084961d51ec378a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "61b679a67194fed9",
-                "type": "leaf",
-                "state": {
-                  "type": "fiveetools-table",
-                  "state": {},
-                  "icon": "fiveetools",
-                  "title": "Table"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 961,
-        "y": 0,
-        "width": 958,
-        "height": 1079,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "61b679a67194fed9",
+  "active": "b07b1f046d3b3188",
   "lastOpenFiles": [
     "5etools/_characters/pdf-rasp-yutin.md",
     "5etools/_campaigns/arkaste/players/rasp-yutin.md",
