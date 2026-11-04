@@ -95,10 +95,10 @@
 | 91 | Dead gnome male |
 | 92 | Injured dwarf female |
 | 93 | Overturned wagon |
-| 94 | Forest fi re |
+| 94 | Forest fire |
 | 95 | Farmer looking for a lost cow |
 | 96 | Woman asks for directions |
-| 97 | Unconscious halfl ing female |
+| 97 | Unconscious halfling female |
 | 98 | Two hand axes stuck into the ground |
 | 99 | Dwarf looking at broken warhammer |
 | 100 | Survivors of an attack |

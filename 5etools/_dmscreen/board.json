@@ -121,6 +121,23 @@
 					"collapsed": false
 				}
 			]
+		},
+		{
+			"id": "p91",
+			"collapsed": false,
+			"items": [
+				{
+					"id": "p90",
+					"type": "initiative",
+					"title": "Initiative",
+					"doc": null,
+					"path": "",
+					"ref": "",
+					"text": "",
+					"value": 0,
+					"collapsed": false
+				}
+			]
 		}
 	]
 }
