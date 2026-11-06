@@ -13,7 +13,7 @@
             "state": {
               "type": "fiveetools-library",
               "state": {
-                "navId": "table",
+                "navId": "dmscreen",
                 "query": "",
                 "doc": null,
                 "navCollapsed": false,
